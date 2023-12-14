@@ -48,9 +48,12 @@ function clickButton(index) {
   //console.log(player1 == player2);
   if (player1 == true && inputValue == "") {
     fillButton(index, "X");
+    document.getElementById(index).style.color = "green";
     player1 = false;
   } else if (player1 == false && inputValue == "") {
     fillButton(index, "O");
+    document.getElementById(index).style.color = "red";
+
     player1 = true;
   }
   checkWinner();
