@@ -9,6 +9,7 @@ function fillButton(index, text) {
 function winningAlert(winner) {
   if (confirm(`Horraaay, ${winner} wins!`)) {
     // The code here will be exectued if you press on OK button that will pop on the window
+    // } else return confirm("Draw");
   }
 }
 
@@ -35,9 +36,9 @@ function winningAlert(winner) {
     }
   }
  */
-let player1 = true;
-//let player2 = true;
 
+//let player2 = true;
+let player1 = true;
 function clickButton(index) {
   console.log(`Button number ${index} is clicked`);
   // Your main code here.
@@ -59,7 +60,6 @@ function checkWinner() {
   let b1 = document.getElementById(1).innerHTML;
   let b2 = document.getElementById(2).innerHTML;
   let b3 = document.getElementById(3).innerHTML;
-
   let b4 = document.getElementById(4).innerHTML;
   let b5 = document.getElementById(5).innerHTML;
   let b6 = document.getElementById(6).innerHTML;
@@ -82,6 +82,8 @@ function checkWinner() {
     winningAlert(b1);
   } else if (b3 == b5 && b3 == b7 && b3 != "") {
     winningAlert(b3);
+  } else if (b1 && b2 && b3 && b4 && b5 && b6 && b7 && b8 && b9 != "") {
+    alert("Draw");
   }
 }
 
@@ -91,3 +93,4 @@ function checkWinner() {
 // function checkWinner
 
 //function restartGame/////
+//function restartGame() {}
