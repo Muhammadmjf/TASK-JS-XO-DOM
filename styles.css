@@ -21,7 +21,7 @@ body {
   justify-content: center;
   align-items: center;
   font-size: x-large;
-  background-color: #e3e3e3;
+  background-color: hsl(0, 10%, 84%);
   width: 85px;
   height: 85px;
   text-align: center;
@@ -30,7 +30,7 @@ body {
   /* align-items: ; */
   margin: 10px;
 
-  font-family: "Permanent Marker", cursive;
+  font-family: "Cursive", cursive;
 }
 
 .green {
