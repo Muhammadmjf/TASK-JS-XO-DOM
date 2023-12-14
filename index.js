@@ -68,22 +68,103 @@ function checkWinner() {
   let b9 = document.getElementById(9).innerHTML;
   if (b1 == b2 && b1 == b3 && b1 != "") {
     winningAlert(b1);
+    fillButton(1, "");
+    fillButton(2, "");
+    fillButton(3, "");
+    fillButton(4, "");
+    fillButton(5, "");
+    fillButton(6, "");
+    fillButton(7, "");
+    fillButton(8, "");
+    fillButton(9, "");
   } else if (b4 == b5 && b4 == b6 && b4 != "") {
     winningAlert(b4);
+    fillButton(1, "");
+    fillButton(2, "");
+    fillButton(3, "");
+    fillButton(4, "");
+    fillButton(5, "");
+    fillButton(6, "");
+    fillButton(7, "");
+    fillButton(8, "");
+    fillButton(9, "");
   } else if (b7 == b8 && b7 == b9 && b7 != "") {
     winningAlert(b7);
+    fillButton(1, "");
+    fillButton(2, "");
+    fillButton(3, "");
+    fillButton(4, "");
+    fillButton(5, "");
+    fillButton(6, "");
+    fillButton(7, "");
+    fillButton(8, "");
+    fillButton(9, "");
   } else if (b1 == b4 && b1 == b7 && b1 != "") {
     winningAlert(b1);
+    fillButton(1, "");
+    fillButton(2, "");
+    fillButton(3, "");
+    fillButton(4, "");
+    fillButton(5, "");
+    fillButton(6, "");
+    fillButton(7, "");
+    fillButton(8, "");
+    fillButton(9, "");
   } else if (b2 == b5 && b2 == b8 && b2 != "") {
     winningAlert(b2);
+    fillButton(1, "");
+    fillButton(2, "");
+    fillButton(3, "");
+    fillButton(4, "");
+    fillButton(5, "");
+    fillButton(6, "");
+    fillButton(7, "");
+    fillButton(8, "");
+    fillButton(9, "");
   } else if (b3 == b6 && b3 == b9 && b3 != "") {
     winningAlert(b3);
+    fillButton(1, "");
+    fillButton(2, "");
+    fillButton(3, "");
+    fillButton(4, "");
+    fillButton(5, "");
+    fillButton(6, "");
+    fillButton(7, "");
+    fillButton(8, "");
+    fillButton(9, "");
   } else if (b1 == b5 && b1 == b9 && b1 != "") {
     winningAlert(b1);
+    fillButton(1, "");
+    fillButton(2, "");
+    fillButton(3, "");
+    fillButton(4, "");
+    fillButton(5, "");
+    fillButton(6, "");
+    fillButton(7, "");
+    fillButton(8, "");
+    fillButton(9, "");
   } else if (b3 == b5 && b3 == b7 && b3 != "") {
     winningAlert(b3);
+    fillButton(1, "");
+    fillButton(2, "");
+    fillButton(3, "");
+    fillButton(4, "");
+    fillButton(5, "");
+    fillButton(6, "");
+    fillButton(7, "");
+    fillButton(8, "");
+    fillButton(9, "");
   } else if (b1 && b2 && b3 && b4 && b5 && b6 && b7 && b8 && b9 != "") {
     alert("Draw");
+    fillButton(1, "");
+    fillButton(2, "");
+    fillButton(3, "");
+    fillButton(4, "");
+    fillButton(5, "");
+    fillButton(6, "");
+    fillButton(7, "");
+    fillButton(8, "");
+    fillButton(9, "");
   }
 }
 
